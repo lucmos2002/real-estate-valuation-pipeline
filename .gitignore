@@ -1,3 +1,28 @@
+# Ambientes e executáveis do Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Sessões do Scraper e Credenciais
+*.pkl
+*.env
+checkpoint_page.txt
+
+# Arquivos de Dados Locais e Pesados (CSV/Excel)
+*.csv
+*.xlsx
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
 # Ficheiros de credenciais e sessão de scraping
 *.pkl
 *.env
